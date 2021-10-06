@@ -21,6 +21,7 @@
 
 @media screen and (max-width: 400px) {
     .lead__subtitle{
+        margin: 40px auto 16px auto;
         max-width: 288px;
         max-height: 40px;
         font-family: Inter;

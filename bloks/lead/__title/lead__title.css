@@ -11,7 +11,7 @@
     color: #FFF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 765px) {
     .lead__title{
         font-family: Inter;
         font-style: normal;
