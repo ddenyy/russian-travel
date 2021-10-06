@@ -2,7 +2,7 @@
     margin-right: auto;
     margin-left: auto;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: column;
     max-width: 984px;
 }

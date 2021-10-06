@@ -12,4 +12,10 @@
 @import url(../bloks/lead/__image/lead__image.css);
 @import url(../bloks/lead/__caption/lead__caption.css);
 @import url(../bloks/page/__lead/page__lead.css);
+@import url(../bloks/intro/__list/intro__list.css);
+@import url(../bloks/intro/__text/intro__text.css);
+@import url(../bloks/intro/__title/intro__title.css);
+@import url(../bloks/intro/intro.css);
+@import url(../bloks/page/__intro/page__intro.css);
+@import url(../bloks/page/__item/page__item.css);
 
