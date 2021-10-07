@@ -1,6 +1,3 @@
-.page__item{
-    margin-bottom: 92px;
-}
 
 @media screen and (min-width: 1024px) {
     .page__item { margin-bottom: 92px }

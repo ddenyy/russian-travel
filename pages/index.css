@@ -18,4 +18,7 @@
 @import url(../bloks/intro/intro.css);
 @import url(../bloks/page/__intro/page__intro.css);
 @import url(../bloks/page/__item/page__item.css);
+@import url(../bloks/photo-grid/photo-grid.css);
+@import url(../bloks/photo-grid/__item/photo-grid__item.css);
+
 
