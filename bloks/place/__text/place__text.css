@@ -1,0 +1,17 @@
+.place__text{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1280px){
+  .place__text{
+    grid-row: 2/-1;
+    grid-column: 2/3;
+  }
+}
+
+@media screen and (max-width: 760px){
+  .place__text{
+    order: 4;
+  }
+}
