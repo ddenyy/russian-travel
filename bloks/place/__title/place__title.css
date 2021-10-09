@@ -8,16 +8,26 @@
     line-height: 76px;
     color: #FFFFFF;
 }
-
-@media screen and (max-width: 760px) {
+/*760*/
+@media screen and (max-width: 768px) {
     .place__title{
-    order: 1;
+        order: 1;
+        margin-left: 24px;
+        
     }
 }
 
 @media screen and (max-width: 550px) {
     .place__title{
-    font-size: 42px;
-    line-height: 46px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__title{
+        font-size: 32px;
+        line-height: 35px;
+        margin-left: 16px;
     }
 }

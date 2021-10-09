@@ -13,3 +13,9 @@
     text-transform: uppercase;
     color: #FFF;
 }
+
+@media screen and (width: 768px) {
+    .lead__caption{
+        margin-left: 24px;
+    }
+}
