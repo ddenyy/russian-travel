@@ -5,7 +5,6 @@
 @import url(../bloks/header/__lange-link/header__lange-link.css);
 @import url(../bloks/header/__logo/header__logo.css);
 @import url(../bloks/page/__header/page__header.css);
-@import url(../bloks/header/__lange_links/header__lange_links.css);
 @import url(../bloks/lead/lead.css);
 @import url(../bloks/lead/__title/lead__title.css);
 @import url(../bloks/lead/__subtitle/lead__subtitle.css);
@@ -39,5 +38,4 @@
 @import url(../bloks/footer/footer.css);
 @import url(../bloks/footer/__link/footer__link.css);
 @import url(../bloks/footer/__author/footer__author.css);
-@import url(../bloks/footer/__links/footer__links.css);
 
