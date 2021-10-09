@@ -1,22 +1,22 @@
-.intro__title{
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-    margin: 0;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
-    color: #FFFFFF;
-    padding: 0;
+.intro__title {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #ffffff;
+  padding: 0;
 }
 
 @media screen and (max-width: 325px) {
-    .intro__title{
-        margin-bottom: 0;
-        font-size: 32px;
-        line-height: 35px;
-    }
+  .intro__title {
+    margin-bottom: 0;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

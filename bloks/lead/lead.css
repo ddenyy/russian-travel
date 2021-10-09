@@ -1,14 +1,14 @@
-.lead{
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    max-width: 984px;
+.lead {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 984px;
 }
 
-@media (max-width: 320px){
-    .lead{
-        max-width: calc(100% - 4px);
-    }
+@media (max-width: 320px) {
+  .lead {
+    max-width: calc(100% - 4px);
+  }
 }

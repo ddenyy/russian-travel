@@ -1,17 +1,17 @@
-.place__website{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+.place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 @media screen and (max-width: 768px) {
-    .place__website{
-        order: 2;
-    }
- }
+  .place__website {
+    order: 2;
+  }
+}
 
- @media screen and (max-width: 760px) {
-    .place__website{
-        margin-left: 16px;
-    }
- }
+@media screen and (max-width: 760px) {
+  .place__website {
+    margin-left: 16px;
+  }
+}
