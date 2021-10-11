@@ -4,6 +4,7 @@
 * Интро
 * Технологии
 * Инструменты
+* Ссылки
 
 **Интро**
 
@@ -22,6 +23,9 @@
 
 * HTML
 * CSS
+
+**Ссылки**
+https://ddenyy.github.io/russian-travel/index.html
 
 
 

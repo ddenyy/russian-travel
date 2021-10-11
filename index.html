@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="page">
-      <header class="header page__header page__item">
+      <header class="header page__header">
         <div class="header__logo"></div>
         <a href="#" class="header__lange-link">Ru</a>
         <a href="#" class="header__lange-link">En</a>
@@ -40,11 +40,19 @@
           некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li>Часовых поясов <span class="intro__numbers">11</span></li>
+          <li>
+            Объектов природного наследия ЮНЕСКО
+            <span class="intro__numbers">12</span>
+          </li>
+          <li>
+            Объектов культурного наследия ЮНЕСКО
+            <span class="intro__numbers">16</span>
+          </li>
+          <li>
+            Природных заповедников <span class="intro__numbers">105</span>
+          </li>
+          <li>Аэропортов <span class="intro__numbers">241</span></li>
         </ul>
       </section>
       <section class="photo-grid page__item">
@@ -112,17 +120,17 @@
       <section class="places page__item">
         <div class="place places__place">
           <h2 class="place__title">Куршская коса</h2>
-          <img
-            class="place__image"
-            src="images/place-kosa.jpg"
-            alt="куршская_коса"
-          />
           <div class="place__website">
             <a class="place__url-heading">URL</a>
             <a href="http://park-kosa.ru" target="_blank" class="place__link">
               park-kosa.ru
             </a>
           </div>
+          <img
+            class="place__image"
+            src="images/place-kosa.jpg"
+            alt="куршская_коса"
+          />
           <div class="place__text">
             <p class="place__paragraph">
               Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
@@ -152,7 +160,8 @@
             <a
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               target="_blank"
-              class="place__link">
+              class="place__link"
+            >
               National Geographic
             </a>
           </div>
@@ -173,7 +182,7 @@
             </p>
           </div>
         </div>
-        <div class="place places__place">
+        <div class="place places__place page__item">
           <h2 class="place__title">Алтай</h2>
           <img class="place__image" src="images/place-altai.jpg" alt="Алтай" />
           <div class="place__website">
@@ -181,7 +190,8 @@
             <a
               href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
               target="_blank"
-              class="place__link">
+              class="place__link"
+            >
               Facebook
             </a>
           </div>
@@ -213,9 +223,10 @@
             <a
               href="https://vk.com/baikalmile"
               target="_blank"
-              class="place__link">
+              class="place__link"
+            >
               https://vk.com/baikalmile
-              </a>
+            </a>
           </div>
           <div class="place__text">
             <p class="place__paragraph">
@@ -224,10 +235,11 @@
               красивейших мест в России.
             </p>
             <p class="place__paragraph">
-              Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом.
-              Так вы увидите всё разнообразие местной флоры и фауны. По лесам
-              Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся
-              косули. И знаменитые манулы — тоже обитатели Алтайского края.
+              Конечно, это всё так. Но Байкал ещё идеальное место
+              для соревнований по скийорингу. Это такой вид спорта, когда лыжник
+              привязывает себя к мотоциклу, и тандем старается развить как можно
+              бóльшую скорость на льду. В марте 2019 года на фестивале
+              «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
         </div>
@@ -262,7 +274,8 @@
       <section class="cover page__cover page__item">
         <a
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
-          class="cover__overlay">
+          class="cover__overlay"
+        >
         </a>
         <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">

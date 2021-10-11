@@ -11,6 +11,10 @@
   line-height: 36px;
   text-align: center;
   color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  letter-spacing: normal;
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,10 +29,14 @@
     max-width: 288px;
     max-height: 40px;
     font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    margin-top: 16px;
+    margin-bottom: 40px;
   }
 }

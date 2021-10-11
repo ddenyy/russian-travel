@@ -3,14 +3,22 @@
   margin-right: auto;
 }
 
+@media (max-width: 1024px) {
+  .page__intro {
+    margin-left: 48px;
+  }
+}
+
 @media (max-width: 768px) {
   .page__intro {
     margin-left: 24px;
+    margin-right: 24px;
   }
 }
 
 @media (max-width: 320px) {
   .page__intro {
     margin-left: 16px;
+    margin-right: 16px;
   }
 }

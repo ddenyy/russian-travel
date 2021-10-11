@@ -4,3 +4,9 @@
   margin-bottom: 8px;
   max-height: 615px;
 }
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    max-width: 320px;
+  }
+}

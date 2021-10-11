@@ -1,5 +1,5 @@
 .header__lange-link {
-  text-decoration-line: underline;
+  text-decoration: none;
   color: #ffffff;
   font-family: Inter;
   font-style: normal;
@@ -10,8 +10,19 @@
   padding: 0;
   max-width: 30px;
   max-height: 28px;
-  margin-top: auto;
+  margin-top: 18px;
   margin-bottom: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.header__lange-link:active {
+  border-bottom: 2px solid #ffffff;
+}
+
+.header__lange-link:hover {
+  border-bottom: 2px solid #ffffff;
 }
 
 .header__lange-link:last-child {
@@ -20,6 +31,7 @@
 
 @media screen and (max-width: 330px) {
   .header__lange-link {
+    margin-top: 14px;
     font-size: 18px;
     line-height: 20px;
     max-height: 22px;
