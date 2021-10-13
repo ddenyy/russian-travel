@@ -1,6 +1,5 @@
 .cover {
   max-width: 1184px;
-  height: 62.5vw;
   max-height: 740px;
   box-sizing: border-box;
   height: fit-content;
@@ -9,6 +8,7 @@
 @media screen and (max-width: 1280px) {
   .cover {
     width: 100%;
+    min-height: 740px;
   }
 }
 
