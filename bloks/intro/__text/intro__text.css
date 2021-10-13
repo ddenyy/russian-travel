@@ -18,14 +18,7 @@
 
 @media screen and (max-width: 768px) {
   .intro__text {
-    margin-bottom: 33px;
-    min-height: 208px;
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .intro__text {
-    margin-bottom: 33px;
-  }
-}

@@ -1,6 +1,8 @@
+
 @media screen and (min-width: 1050px) {
   .page__cover {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 92px;
   }
 }

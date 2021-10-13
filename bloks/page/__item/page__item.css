@@ -1,4 +1,10 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1281px) {
+  .page__item {
+    margin-bottom: 92px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
   .page__item {
     margin-bottom: 92px;
   }
@@ -8,17 +14,10 @@
   .page__item {
     margin-bottom: 88px;
   }
-
-  .page__item:nth-of-type(4) {
-    margin-bottom: 90px;
-  }
 }
 
 @media screen and (max-width: 320px) {
   .page__item {
     margin-bottom: 64px;
-  }
-  .page__item:nth-of-type(4) {
-    margin-bottom: 66px;
   }
 }

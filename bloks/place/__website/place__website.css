@@ -4,7 +4,7 @@
   justify-content: end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 815px) {
   .place__website {
     order: 2;
   }

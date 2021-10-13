@@ -9,24 +9,18 @@
   line-height: 100px;
   text-align: center;
   max-width: 720px;
-  max-height: 200px;
   color: #fff;
 }
 
 @media screen and (max-width: 765px) {
   .lead__title {
-    font-weight: 900;
     font-size: 30px;
-    line-height: 100px;
-    text-align: center;
   }
 }
 
 @media screen and (max-width: 425px) {
   .lead__title {
     max-width: 288px;
-    max-height: 88px;
-    font-weight: 900;
     font-size: 40px;
     line-height: 44px;
   }

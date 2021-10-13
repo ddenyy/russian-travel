@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 815px) {
   .place__text {
     order: 4;
   }

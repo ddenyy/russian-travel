@@ -18,20 +18,17 @@
   -moz-text-size-adjust: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 815px) {
   .place__title {
-    font-size: 42px;
     line-height: 46px;
     order: 1;
     margin-top: auto;
-    margin-bottom: 0;
     letter-spacing: 0.9px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .place__title {
-    font-size: 42px;
     line-height: 46px;
   }
 }

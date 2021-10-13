@@ -13,11 +13,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  transition: opacity 0.3s linear;
 }
 
 .footer__link:hover {
-  opacity: 0.3;
-  transition: opacity 0.3s linear;
+  opacity: 0.8;
 }
 
 .footer__link:last-of-type {

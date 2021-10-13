@@ -1,27 +1,18 @@
 .cover {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
   max-width: 1184px;
   height: 62.5vw;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 3;
-  text-decoration: none;
+  max-height: 740px;
   box-sizing: border-box;
-  overflow: hidden;
+  height: fit-content;
 }
 
 @media screen and (max-width: 1280px) {
   .cover {
     width: 100%;
-    max-height: 740px;
   }
 }
+
+
 
 @media screen and (max-width: 320px) {
   .cover {
