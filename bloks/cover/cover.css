@@ -1,6 +1,5 @@
 .cover {
   max-width: 1184px;
   box-sizing: border-box;
-  height: auto;
+  height: fit-content;
 }
-
