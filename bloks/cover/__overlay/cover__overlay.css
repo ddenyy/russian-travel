@@ -8,7 +8,6 @@
   background-repeat: no-repeat;
   max-width: 1184px;
   height: 62.5vw;
-  max-height: 740px;
   text-decoration: none;
   position: relative;
   z-index: 1;
@@ -30,4 +29,10 @@
 .cover__overlay:hover:after {
   opacity: 0.8;
   transition: opacity 0.5s 0.1s linear;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay{
+    min-height: 200px;
+  }
 }
