@@ -34,6 +34,8 @@
 @media screen and (max-width: 320px) {
   .lead__subtitle {
     margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 16px;
     margin-bottom: 40px;
   }
 }

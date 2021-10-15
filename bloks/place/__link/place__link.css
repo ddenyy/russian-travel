@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 22px;
   text-decoration-line: underline;
   color: #ffffff;
 }
@@ -11,10 +11,4 @@
 .place__link:hover {
   opacity: 0.8;
   transition: opacity 0.3s linear;
-}
-
-@media (max-width: 320px) {
-  .place__link {
-    line-height: 22px;
-  }
 }
